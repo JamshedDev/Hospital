@@ -374,7 +374,7 @@ form button{
 
 form button:hover{
     background:#11a158;
-    font-size: 26PX;
+    font-size: 22PX;
     transform:translateY(-4px);
 }
 
