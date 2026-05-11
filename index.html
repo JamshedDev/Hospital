@@ -1,254 +1,398 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hamid Consultancy</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+  <title>حامد للاستشارات - المستشفيات</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-  <div class="navbar">
-    <div class="logo">Hamid <span>Consultancy</span></div>
-
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<section class="hero" id="home">
-  <div class="hero-content">
-    <h1>Language Assistance For Foreign Patients</h1>
-    <p>
-      Hamid Consultancy helps international patients communicate confidently with doctors, hospitals, and healthcare staff through professional multilingual assistance services.
-    </p>
-
-    <a href="#contact" class="btn">Get Consultation</a>
-  </div>
-</section>
-
-<section id="services">
-  <div class="section-title">
-    <h2>Our Services</h2>
-    <p>
-      We provide trusted language support and patient coordination services for foreign visitors seeking medical care.
-    </p>
-  </div>
-
-  <div class="services">
-    <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0?q=80&w=1000&auto=format&fit=crop" alt="Interpreter">
-      <h3>Medical Interpreter</h3>
-      <p>
-        Professional interpreters for hospital visits, doctor consultations, and emergency communication.
-      </p>
-    </div>
-
-    <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1000&auto=format&fit=crop" alt="Patient Support">
-      <h3>Patient Guidance</h3>
-      <p>
-        Assistance with appointments, registration, prescriptions, and healthcare procedures.
-      </p>
-    </div>
-
-    <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1000&auto=format&fit=crop" alt="Translation">
-      <h3>Document Translation</h3>
-      <p>
-        Accurate translation of medical reports, prescriptions, discharge papers, and insurance documents.
-      </p>
-    </div>
-
-    <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1000&auto=format&fit=crop" alt="24/7 support">
-      <h3>24/7 Support</h3>
-      <p>
-        Quick response support for urgent communication needs and hospital coordination.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section id="about">
-  <div class="about">
-    <div>
-      <div class="section-title" style="text-align:left; margin-bottom:20px;">
-        <h2>Why Choose Hamid Consultancy?</h2>
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <span class="logo-icon">✦</span>
+        <div class="logo-text">
+          <span class="logo-main">Hamid Consultancy</span>
+          <span class="logo-sub">استشارات حامد الطبية</span>
+        </div>
       </div>
-
-      <p>
-        We understand how difficult it can be for foreign patients to communicate in a new country. Our mission is to remove language barriers and help patients receive comfortable, stress-free healthcare support.
-      </p>
-
-      <br>
-
-      <p>
-        Our experienced assistants support patients in hospitals, clinics, pharmacies, and healthcare centers with complete professionalism and confidentiality.
-      </p>
-
-      <br>
-
-      <a href="#contact" class="btn">Talk To Us</a>
-    </div>
-
-    <div>
-      <img src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?q=80&w=1200&auto=format&fit=crop" alt="Healthcare assistance">
-    </div>
-  </div>
-</section>
-
-<section class="stats">
-  <div class="section-title">
-    <h2 style="color:white;">Trusted By International Patients</h2>
-    <p style="color:#d1fae5;">
-      Providing dependable multilingual assistance across hospitals and clinics.
-    </p>
-  </div>
-
-  <div class="stats-grid">
-    <div class="stat-box">
-      <h3>1500+</h3>
-      <p>Patients Assisted</p>
-    </div>
-
-    <div class="stat-box">
-      <h3>20+</h3>
-      <p>Languages Supported</p>
-    </div>
-
-    <div class="stat-box">
-      <h3>24/7</h3>
-      <p>Support Availability</p>
-    </div>
-
-    <div class="stat-box">
-      <h3>98%</h3>
-      <p>Positive Feedback</p>
-    </div>
-  </div>
-</section>
-
-<section id="feedback">
-  <div class="section-title">
-    <h2>Send Your Feedback</h2>
-    <p>
-      Your feedback helps us improve our support services for international patients.
-    </p>
-  </div>
-
-  <div class="feedback-form">
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Write your feedback here..."></textarea>
-      <button type="submit" class="btn">Submit Feedback</button>
-    </form>
-  </div>
-</section>
-
-<section>
-  <div class="section-title">
-    <h2>Patient Reviews</h2>
-    <p>
-      Real experiences shared by foreign patients who received language support from Hamid Consultancy.
-    </p>
-  </div>
-
-  <div class="reviews">
-    <div class="review-card">
-      <p>
-        “The interpreter helped me communicate with my doctor clearly. Everything became easy during my treatment.”
-      </p>
-      <h4>— Ahmed R.</h4>
-    </div>
-
-    <div class="review-card">
-      <p>
-        “Excellent support service. They guided me through hospital procedures and translated all medical documents.”
-      </p>
-      <h4>— Sarah M.</h4>
-    </div>
-
-    <div class="review-card">
-      <p>
-        “Professional, polite, and available whenever needed. Highly recommended for foreign patients.”
-      </p>
-      <h4>— Daniel K.</h4>
-    </div>
-  </div>
-</section>
-
-<section id="contact">
-  <div class="contact">
-    <div class="section-title">
-      <h2>Contact Hamid Consultancy</h2>
-      <p>
-        Reach out for language assistance, hospital support, or multilingual patient services.
-      </p>
-    </div>
-
-    <p><strong>Phone:</strong> +91 98765 43210</p>
-    <p><strong>Email:</strong> support@hamidconsultancy.com</p>
-    <p><strong>Location:</strong> New Delhi, India</p>
-
-    <br>
-
-    <a href="#" class="btn">Book Assistance</a>
-  </div>
-</section>
-
-<footer>
-  <div class="footer-grid">
-    <div>
-      <h3>Hamid Consultancy</h3>
-      <p>
-        Professional multilingual healthcare assistance for international patients.
-      </p>
-    </div>
-
-    <div>
-      <h3>Services</h3>
-      <ul>
-        <li>Medical Interpretation</li>
-        <li>Document Translation</li>
-        <li>Patient Coordination</li>
-        <li>Emergency Language Support</li>
+      <ul class="nav-links">
+        <li><a href="#">من نحن</a></li>
+        <li><a href="#">الأقسام والتخصصات</a></li>
+        <li><a href="#">خدماتنا</a></li>
+        <li><a href="#">المستشفيات</a></li>
       </ul>
+      <a href="#contact" class="btn-contact">تواصل معنا</a>
     </div>
+  </nav>
 
-    <div>
-      <h3>Quick Links</h3>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Contact</li>
-      </ul>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1>المستشفيات</h1>
+      <p>شركاؤنا من أفضل المستشفيات المعتمدة في الهند</p>
     </div>
+  </section>
 
-    <div>
-      <h3>Support</h3>
-      <p>Email: support@hamidconsultancy.com</p>
-      <p>Phone: +91 98765 43210</p>
+  <!-- HOSPITALS GRID -->
+  <section class="hospitals">
+    <div class="container">
+      <div class="grid">
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>مستشفيات أبولو نيودلهي</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>مستشفى BLK في الهند، دلهي</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>مستشفى فورتيس جورجاون</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1632833239869-a37e3a5806d2?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>مستشفى جايبي، نويدا، الهند</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>مستشفى ميدنتا مدي سيتي</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>مستشفى ماكس في الهند، دلهي</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>مستشفى آرتيميس، الهند، جورجاون</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>مستشفى غلوبال تشيناي</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1551076805-e1869033e561?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>المستشفى الآسيوي في الهند، دلهي</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>مستشفى مانيبال في الهند، دلهي</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>مستشفى مترو في الهند، دلهي</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1625134673337-519d4d10b313?w=400&q=80')"></div>
+          <div class="card-body">
+            <h3>مستشفى أمريتا في الهند، دلهي</h3>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
+  </section>
 
-  <div class="copyright">
-    © 2025 Hamid Consultancy. All Rights Reserved.
-  </div>
-</footer>
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <h2>كيف تتقدم لرحلة العلاج في الهند</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-icon">📋</div>
+          <p>أرسل تقاريرك الطبية لنا</p>
+        </div>
+        <div class="step-arrow">←</div>
+        <div class="step">
+          <div class="step-icon">💬</div>
+          <p>احصل على استشارة طبية خلال ٢٤ ساعة</p>
+        </div>
+        <div class="step-arrow">←</div>
+        <div class="step">
+          <div class="step-icon">✈️</div>
+          <p>احصل على تأشيرتك وتذكرة الطيران من عندنا</p>
+        </div>
+        <div class="step-arrow">←</div>
+        <div class="step">
+          <div class="step-icon">🏨</div>
+          <p>سنستقبلك في المطار وبرامجك إلى الفندق</p>
+        </div>
+        <div class="step-arrow">←</div>
+        <div class="step">
+          <div class="step-icon">🌍</div>
+          <p>نعالج معك ونعد إلى بلدك سالماً</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ABOUT BANNER -->
+  <section class="about-banner">
+    <div class="container">
+      <h2>التخطيط والتشخيص الصحيح من أهم أسباب نجاح رحلة العلاج.</h2>
+      <p>
+        نحن في رحلات الصحة الهند دليل علاجك في الهند نعمل على إرساء معايير جديدة للسياحة الطبية داخل الهند وذلك من خلال توافر كافة من الخدمات المتكاملة التي تساعد في شفاء المرضى. تواصل معنا وسوف يتواصل معك أحد ممثلينا !
+      </p>
+    </div>
+  </section>
+
+  <!-- IMAGE SLIDESHOW -->
+  <section class="slideshow-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>لحظات من رحلات علاجنا</h2>
+        <div class="divider"></div>
+        <p class="section-sub">صور حقيقية من تجارب مرضانا في مستشفيات الهند</p>
+      </div>
+      <div class="slideshow-wrapper">
+        <div class="slideshow">
+          <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=1200&q=80')">
+            <div class="slide-caption">غرف العمليات المتطورة</div>
+          </div>
+          <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80')">
+            <div class="slide-caption">فرق طبية متخصصة</div>
+          </div>
+          <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&q=80')">
+            <div class="slide-caption">رعاية المرضى على مدار الساعة</div>
+          </div>
+          <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=1200&q=80')">
+            <div class="slide-caption">أحدث أجهزة التصوير الطبي</div>
+          </div>
+          <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1585842378054-ee2e52f94ba2?w=1200&q=80')">
+            <div class="slide-caption">مختبرات تشخيصية متطورة</div>
+          </div>
+          <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=1200&q=80')">
+            <div class="slide-caption">استشارات طبية متميزة</div>
+          </div>
+          <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1579684453423-f84349ef60b0?w=1200&q=80')">
+            <div class="slide-caption">أجنحة مرضى راقية ومريحة</div>
+          </div>
+          <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=1200&q=80')">
+            <div class="slide-caption">خدمات إعادة التأهيل</div>
+          </div>
+          <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=1200&q=80')">
+            <div class="slide-caption">تقنيات علاجية حديثة</div>
+          </div>
+          <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=1200&q=80')">
+            <div class="slide-caption">صيدليات ومستودعات الأدوية</div>
+          </div>
+        </div>
+        <div class="slide-dots" id="slideDots"></div>
+        <button class="slide-btn slide-prev" onclick="changeSlide(-1)">&#8249;</button>
+        <button class="slide-btn slide-next" onclick="changeSlide(1)">&#8250;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>معرض الصور</h2>
+        <div class="divider"></div>
+        <p class="section-sub">نظرة على مرافقنا وخدماتنا الطبية المتميزة</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-large">
+          <div class="gal-img" style="background-image: url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&q=80')"></div>
+          <div class="gal-overlay"><span>مستشفيات أبولو</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gal-img" style="background-image: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&q=80')"></div>
+          <div class="gal-overlay"><span>وحدة العناية المركزة</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gal-img" style="background-image: url('https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400&q=80')"></div>
+          <div class="gal-overlay"><span>مركز جراحة القلب</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gal-img" style="background-image: url('https://images.unsplash.com/photo-1551076805-e1869033e561?w=400&q=80')"></div>
+          <div class="gal-overlay"><span>وحدة الأشعة</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gal-img" style="background-image: url('https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=400&q=80')"></div>
+          <div class="gal-overlay"><span>أجنحة النقاهة</span></div>
+        </div>
+        <div class="gallery-item gallery-large-right">
+          <div class="gal-img" style="background-image: url('https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=800&q=80')"></div>
+          <div class="gal-overlay"><span>مبنى المستشفى الرئيسي</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gal-img" style="background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&q=80')"></div>
+          <div class="gal-overlay"><span>مركز إعادة التأهيل</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gal-img" style="background-image: url('https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=400&q=80')"></div>
+          <div class="gal-overlay"><span>قسم الطوارئ</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>تواصل معنا</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="phone">📞 +91-9971255545</div>
+      <form class="contact-form" onsubmit="return false;">
+        <input type="text" placeholder="Full name" />
+        <input type="email" placeholder="Email address" />
+        <input type="tel" placeholder="Phone number" />
+        <textarea placeholder="Message" rows="5"></textarea>
+        <button type="submit" class="btn-submit">SUBMIT</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>الأقسام والتخصصات</h4>
+        <ul>
+          <li>علاج أمراض القلب</li>
+          <li>علاج الأورام والسرطان</li>
+          <li>جراحة العظام</li>
+          <li>علاج أمراض العمود الفقري</li>
+          <li>زراعة الأعضاء</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>الأقسام والتخصصات</h4>
+        <ul>
+          <li>جراحة المخ والأعصاب</li>
+          <li>علاج المسالك البولية</li>
+          <li>تخفيف الوزن</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>روابط سريعة</h4>
+        <li>
+          <li>من نحن</li>
+          <li>خدماتنا</li>
+          <li>الأقسام والتخصصات</li>
+          <li>المستشفيات</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-logo">
+          <span class="logo-icon">✦</span>
+          <span>Hamid Consultancy</span>
+        </div>
+        <p>📱 +91-9971255545</p>
+        <p>✉️ info@hamidconsultancy.com</p>
+      </div>
+    </div>
+    <div class="footer-social">
+      <h4>تابعنا على وسائل التواصل الاجتماعي</h4>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/hamid.ahsan?rdid=hNEO89e0iDkZELug&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18cUH7a4K6%2F#" class="social-icon facebook" title="فيسبوك">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="#" class="social-icon instagram" title="إنستغرام">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+        <a href="#" class="social-icon twitter" title="تويتر / إكس">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="#" class="social-icon youtube" title="يوتيوب">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a href="https://wa.me/919971255545" class="social-icon whatsapp" title="واتساب">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>جميع الحقوق محفوظة لشركة <strong>Hamid Consultancy</strong> &copy; 2024</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/919971255545" class="whatsapp-btn" target="_blank">
+    <svg viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+
+  <script>
+    // ── SLIDESHOW ─────────────────────────
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const dotsContainer = document.getElementById('slideDots');
+    let autoTimer;
+
+    // Build dots
+    slides.forEach((_, i) => {
+      const dot = document.createElement('span');
+      dot.className = 'dot' + (i === 0 ? ' active' : '');
+      dot.onclick = () => goToSlide(i);
+      dotsContainer.appendChild(dot);
+    });
+
+    function goToSlide(n) {
+      slides[currentSlide].classList.remove('active');
+      document.querySelectorAll('.dot')[currentSlide].classList.remove('active');
+      currentSlide = (n + slides.length) % slides.length;
+      slides[currentSlide].classList.add('active');
+      document.querySelectorAll('.dot')[currentSlide].classList.add('active');
+    }
+
+    function changeSlide(dir) {
+      clearInterval(autoTimer);
+      goToSlide(currentSlide + dir);
+      startAuto();
+    }
+
+    function startAuto() {
+      autoTimer = setInterval(() => goToSlide(currentSlide + 1), 2000);
+    }
+
+    startAuto();
+  </script>
 </body>
 </html>
