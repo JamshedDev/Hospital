@@ -774,3 +774,110 @@ ul { list-style: none; }
   .gallery-grid { grid-template-columns: 1fr 1fr; }
   .gallery-grid .gallery-item { height: 180px; }
 }
+
+
+
+.feedback-section {
+      padding: 80px 0;
+      background: #f8f6f2;
+    }
+    .feedback-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 28px;
+      margin-top: 48px;
+    }
+    .feedback-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 32px 28px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .feedback-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    }
+    .feedback-quote-icon {
+      font-size: 56px;
+      line-height: 1;
+      color: #c8a96e;
+      font-family: Georgia, serif;
+      position: absolute;
+      top: 16px;
+      right: 24px;
+      opacity: 0.35;
+    }
+    .feedback-stars {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 16px;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    }
+    .feedback-stars span {
+      color: #f5a623;
+      font-size: 18px;
+    }
+    .feedback-text {
+      font-family: 'Cairo', sans-serif;
+      font-size: 15px;
+      line-height: 1.85;
+      color: #444;
+      margin-bottom: 24px;
+    }
+    .feedback-author {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .feedback-avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #c8a96e, #8b6914);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cairo', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      color: #fff;
+      flex-shrink: 0;
+    }
+    .feedback-author-info {
+      display: flex;
+      flex-direction: column;
+    }
+    .feedback-author-name {
+      font-family: 'Cairo', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      color: #1a1a1a;
+    }
+    .feedback-author-country {
+      font-family: 'Cairo', sans-serif;
+      font-size: 13px;
+      color: #888;
+      margin-top: 2px;
+    }
+    .feedback-badge {
+      display: inline-block;
+      background: #eef7ee;
+      color: #2e7d32;
+      font-family: 'Cairo', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-top: 12px;
+    }
+
+    /* ── SOCIAL ICON YOUTUBE ─────────────────── */
+    .social-icon.youtube {
+      background: #ff0000;
+    }
+    .social-icon.youtube:hover {
+      background: #cc0000;
+    }
