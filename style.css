@@ -19,7 +19,7 @@
   --shadow-hover: 0 12px 40px rgba(42, 157, 143, 0.22);
   --radius: 14px;
   --font-display: 'Amiri', serif;
-  --font-body: 'Cairo', sans-serif;
+  --font-body: 'Tajawal', sans-serif;
 }
 
 *, *::before, *::after {
@@ -881,3 +881,92 @@ ul { list-style: none; }
     .social-icon.youtube:hover {
       background: #cc0000;
     }
+
+/* ===== Alignment & Arabic readability improvements ===== */
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav-inner {
+  min-height: 82px;
+}
+
+.logo-text {
+  justify-content: center;
+}
+
+.nav-links {
+  align-items: center;
+}
+
+.grid,
+.feedback-grid,
+.gallery-grid,
+.footer-grid {
+  align-items: stretch;
+}
+
+.card,
+.feedback-card,
+.kw-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 72px;
+  text-align: center;
+}
+
+.card-body h3,
+.feedback-text,
+.footer-col ul li,
+.section-sub,
+.hero-content p,
+.about-banner p {
+  line-height: 1.9;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form {
+  align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  text-align: right;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .nav-inner {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .hero-content,
+  .section-header,
+  .about-banner,
+  .footer-col {
+    text-align: center;
+  }
+}
