@@ -76,9 +76,9 @@ ul { list-style: none; }
 }
 
 .logo-icon {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   color: var(--coral);
-  animation: spin-slow 8s linear infinite;
+  animation: spin-slow 11s linear infinite;
 }
 
 @keyframes spin-slow {
@@ -93,9 +93,9 @@ ul { list-style: none; }
 
 .logo-main {
   font-family: var(--font-display);
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   font-weight: 700;
-  color: var(--teal-dark);
+  color: red;
   letter-spacing: 0.5px;
 }
 
@@ -111,7 +111,7 @@ ul { list-style: none; }
 }
 
 .nav-links a {
-  font-size: 0.92rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--text);
   position: relative;
@@ -126,7 +126,7 @@ ul { list-style: none; }
   right: 0;
   width: 0;
   height: 2px;
-  background: var(--coral);
+  background: crimson;
   transition: width 0.3s;
 }
 
@@ -134,18 +134,24 @@ ul { list-style: none; }
 .nav-links a:hover::after { width: 100%; }
 
 .btn-contact {
-  background: var(--coral);
-  color: var(--white);
-  padding: 9px 22px;
+  /* background: var(--coral); */
+  background: white;
+  /* color: var(--white); */
+  color: crimson;
+  border: 2px solid crimson;
+  padding: 10px 25px;
   border-radius: 50px;
-  font-size: 0.88rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 600;
   transition: background 0.25s, transform 0.2s;
   white-space: nowrap;
 }
 
 .btn-contact:hover {
-  background: var(--coral-dark);
+  /* background: var(--coral-dark); */
+  background: crimson;
+  color: white;
+  border: 2px solid white;
   transform: translateY(-1px);
 }
 
