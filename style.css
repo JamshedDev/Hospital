@@ -1204,3 +1204,236 @@ body {
     flex-direction: column;
   }
 }
+
+
+/* OWNER SECTION */
+.owner-section {
+  padding: 70px 0;
+  background: linear-gradient(135deg, #f8fbfb 0%, #eef7f7 100%);
+}
+
+.owner-container {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.owner-image img {
+  width: 100%;
+  max-width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+}
+
+.owner-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 18px;
+  color: var(--navy);
+}
+
+.owner-content p {
+  font-size: 1.1rem;
+  line-height: 2;
+  color: var(--text);
+  margin-bottom: 24px;
+}
+
+.owner-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.owner-tags span {
+  background: var(--teal-light);
+  color: var(--navy);
+  padding: 10px 16px;
+  border-radius: 40px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* BIGGER GALLERY */
+.gallery-grid-new {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.gallery-grid-new .gallery-item {
+  height: 320px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.gallery-grid-new .gal-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 992px) {
+  .owner-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .owner-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .owner-tags {
+    justify-content: center;
+  }
+
+  .gallery-grid-new {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-grid-new {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid-new .gallery-item {
+    height: 260px;
+  }
+}
+
+
+/* SQUARE GALLERY UPDATE */
+.gallery-grid-new .gallery-item {
+  aspect-ratio: 1 / 1;
+  height: 360px;
+}
+
+.gallery-grid-new .gal-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid-new .gallery-item {
+    height: 300px;
+  }
+}
+
+
+/* =========================================
+   GALLERY FIX
+========================================= */
+
+.gallery-section {
+  padding: 80px 0;
+  background: #f8fbfb;
+}
+
+.gallery-grid,
+.gallery-grid-new {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+  margin-top: 40px;
+  align-items: stretch;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 320px;
+  border-radius: 18px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+}
+
+.gal-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  transition: transform .5s ease;
+}
+
+.gallery-item:hover .gal-img {
+  transform: scale(1.08);
+}
+
+.gallery-item.gallery-large,
+.gallery-item.gallery-large-right {
+  grid-column: span 1 !important;
+}
+
+.owner-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.owner-container {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.owner-image img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.12);
+}
+
+.doctor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.keywords-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid,
+  .gallery-grid-new {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .gallery-item {
+    height: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid,
+  .gallery-grid-new {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item {
+    height: 240px;
+  }
+
+  .owner-container {
+    grid-template-columns: 1fr;
+  }
+}
